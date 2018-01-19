@@ -1,0 +1,309 @@
+{
+  "development": {
+    "apiOrigin": "http://rapapi.org/mockjsdata/31083"
+  },
+  "test": {
+    "apiOrigin": "http://rapapi.org/mockjsdata/31083"
+  },
+  "production": {
+    "apiOrigin": "http://rapapi.org/mockjsdata/31083"
+  },
+  "menuList": [{
+      "name": "采购",
+      "icon": "icon-caigouguanli",
+      "sub": [{
+          "groupName": "采购单据",
+          "pages": [{
+              "name": "采购订单",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "采购入库单",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "采购退货单",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "在线采购",
+              "link": "/demo/reserve"
+            }
+          ]
+        },
+        {
+          "groupName": "采购报表",
+          "pages": [{
+              "name": "采购明细表",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "采购汇总表（按商品）",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "采购汇总表（按供应商）",
+              "link": "/demo/reserve"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "销售",
+      "icon": "icon-xiaoshou",
+      "sub": [{
+          "groupName": "销售单据",
+          "pages": [{
+              "name": "销售订单",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "销售出库单",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "零售单",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "销售退货",
+              "link": "/demo/reserve"
+            }
+          ]
+        },
+        {
+          "groupName": "销售报表",
+          "pages": [{
+              "name": "销售明细表",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "销售汇总表（按商品）",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "销售汇总表（按客户）",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "销售汇总表（按经手人）",
+              "link": "/demo/reserve"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "仓储",
+      "icon": "icon-cangchu",
+      "sub": [{
+          "groupName": "仓储单据",
+          "pages": [{
+              "name": "入库单",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "出库单",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "调拨单",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "盘点单",
+              "link": "/demo/reserve"
+            }
+          ]
+        },
+        {
+          "groupName": "仓储报表",
+          "pages": [{
+              "name": "库存表",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "商品入出库明细表",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "商品入出库汇总表",
+              "link": "/demo/reserve"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "会员营销",
+      "icon": "icon-huiyuan",
+      "sub": [{
+          "groupName": "会员管理",
+          "pages": [{
+              "name": "会员管理",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "会员卡充值",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "会员积分",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "积分兑换",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "会员业务明细查询",
+              "link": "/demo/reserve"
+            }
+          ]
+        },
+        {
+          "groupName": "营销活动",
+          "pages": [{
+              "name": "优惠券管理",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "奖励活动",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "商品促销",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "消息群发（含短信）",
+              "link": "/demo/reserve"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "财务管理",
+      "icon": "icon-caigouguanli",
+      "sub": [{
+        "groupName": "结算管理",
+        "pages": [{
+            "name": "业务单据",
+            "link": "/demo/reserve"
+          },
+          {
+            "name": "往来管理（应收应付）",
+            "link": "/demo/reserve"
+          },
+          {
+            "name": "预收预付（收付款）",
+            "link": "/demo/reserve"
+          },
+          {
+            "name": "往来预警设置",
+            "link": "/demo/reserve"
+          }
+        ]
+      }]
+    },
+    {
+      "name": "统计分析",
+      "icon": "icon-tongjifenxi",
+      "sub": [{
+        "groupName": "报表分析",
+        "pages": [{
+            "name": "老板一张表",
+            "link": "/demo/reserve"
+          },
+          {
+            "name": "会员统计报表",
+            "link": "/demo/reserve"
+          },
+          {
+            "name": "会员销售统计",
+            "link": "/demo/reserve"
+          }
+        ]
+      }]
+    },
+    {
+      "name": "基础资料",
+      "icon": "icon-jichuziliao",
+      "sub": [{
+          "groupName": "基础资料",
+          "pages": [{
+              "name": "组织架构",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "银行账户",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "职员管理",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "客户管理",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "供货商管理",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "商品管理",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "商品定价管理",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "仓库管理",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "作物维护",
+              "link": "/demo/reserve"
+            }
+          ]
+        },
+        {
+          "groupName": "系统管理",
+          "pages": [{
+              "name": "角色管理",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "系统用户",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "参数配置",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "单据设置",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "结存",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "业务日期冻结",
+              "link": "/demo/reserve"
+            },
+            {
+              "name": "报警薄",
+              "link": "/demo/reserve"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
