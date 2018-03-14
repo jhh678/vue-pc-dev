@@ -1,6 +1,6 @@
 /** * @file * @author jhh678 * @date 2017/7/10 */
 <template>
-  <div class="container-fluid">
+  <div class="sub-page-wrap">
     <h3>组件demo页面</h3>
     <section class="panel panel-default">
       <div class="panel-heading">生成二维码</div>

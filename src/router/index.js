@@ -2,7 +2,7 @@
  * @Author: jhh678
  * @Date: 2017-11-08 18:56:29
  * @Last Modified by: jhh678
- * @Last Modified time: 2018-01-18 15:10:22
+ * @Last Modified time: 2018-03-14 17:49:21
  */
 import Vue from 'vue'
 import Router from 'vue-router'
@@ -80,8 +80,8 @@ let router = new Router({
       path: '/demo/demo',
       component: Demo,
       meta: {
-        hasMaster: false,
-        name: '组件demo'
+        hasMaster: true,
+        name: '基本示例'
       }
     },
     {
@@ -89,7 +89,7 @@ let router = new Router({
       component: MessageDemo,
       meta: {
         hasMaster: true,
-        name: '消息提示demo'
+        name: '消息提示'
       }
     },
     {
@@ -112,7 +112,7 @@ let router = new Router({
     }
   }
 })
-router.beforeEach(async(to, from, next) => {
+router.beforeEach(async (to, from, next) => {
   if (to.path === '/' || to.path === '/login') {
     next()
   } else {

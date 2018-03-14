@@ -9,6 +9,22 @@
     "apiOrigin": "http://rapapi.org/mockjsdata/31083"
   },
   "menuList": [{
+      "name": "演示",
+      "icon": "icon-search",
+      "sub": [{
+        "groupName": "示例",
+        "pages": [{
+            "name": "基本示例",
+            "link": "/demo/demo"
+          },
+          {
+            "name": "消息组件示例",
+            "link": "/demo/message"
+          }
+        ]
+      }]
+    },
+    {
       "name": "采购",
       "icon": "icon-caigouguanli",
       "sub": [{
