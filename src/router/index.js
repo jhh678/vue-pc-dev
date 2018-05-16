@@ -35,7 +35,7 @@ const ReserveDemo = () =>
 
 Vue.use(Router)
 let router = new Router({
-  mode: 'history',
+  // mode: 'history',
   routes: [{
       path: '*',
       component: Error404,
